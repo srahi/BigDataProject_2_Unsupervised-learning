@@ -6,6 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+
 df = pd.read_csv('dow_jones_index.data',header=0)
 df.head()
 
